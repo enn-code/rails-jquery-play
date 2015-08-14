@@ -3,5 +3,10 @@ $(document).ready(function(){
    '<p class = "list">Click to remove comments!</p>');
   $('p.list').click(function(){
     $(this).remove();
-  })
+  });
+
+
+  $('.menu-link').bigSlide();
+
+  
 })
