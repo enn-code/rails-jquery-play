@@ -1,0 +1,40 @@
+/* line 5, /Users/nicholaschin/Documents/myRailsApp4/app/assets/stylesheets/welcome.scss */
+.panel {
+  position: fixed;
+  left: -15.625em;
+  /*or width of your navigation panel*/
+  width: 15.625em;
+  /*should match the above value*/
+}
+
+/* line 12, /Users/nicholaschin/Documents/myRailsApp4/app/assets/stylesheets/welcome.scss */
+.wrap {
+  position: relative;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* line 19, /Users/nicholaschin/Documents/myRailsApp4/app/assets/stylesheets/welcome.scss */
+.panel {
+  background: #101820;
+}
+
+/* line 23, /Users/nicholaschin/Documents/myRailsApp4/app/assets/stylesheets/welcome.scss */
+.panel a {
+  color: #fff;
+}
+
+/* line 28, /Users/nicholaschin/Documents/myRailsApp4/app/assets/stylesheets/welcome.scss */
+.menu-link {
+  float: right;
+  margin-right: 10%;
+  font-size: 180%;
+}
+
+/* line 34, /Users/nicholaschin/Documents/myRailsApp4/app/assets/stylesheets/welcome.scss */
+.nav-header {
+  color: #000000;
+  padding: 10px 15px;
+  background-color: #FFFFFF;
+}
