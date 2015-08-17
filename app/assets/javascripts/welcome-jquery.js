@@ -2,8 +2,8 @@ $(document).ready(function(){
   
   if (typeof jQuery != 'undefined') {
   // jQuery is loaded => print the version
-  alert(jQuery.fn.jquery);
-}
+    alert(jQuery.fn.jquery);
+  }
   
   $('p').append('<p class = "list">This is an extra comment</p>' +
    '<p class = "list">Click to remove comments!</p>'+
@@ -15,7 +15,9 @@ $(document).ready(function(){
     $(this).remove();
   });
 
+});
 
+$(document).on('page:change', function(){
   $('.menu-link').bigSlide();
 
 

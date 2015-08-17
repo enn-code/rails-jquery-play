@@ -1,13 +1,14 @@
-<footer class="footer">
-  <small>
+<footer class="footer col-md-12">
+
+  <nav id="main-footer">
+    <ul class = 'col-md-8 col-md-offset-2 list-group list-unstyled'>
+      <li class = 'list-group-item'><%= link_to "About",   about_path %></li>
+      <li class = 'list-group-item'><%= link_to "Contact", contact_path %></li>
+      <li class = 'list-group-item'><a href="http://news.railstutorial.org/">News</a></li>
+    </ul>
+  </nav>
+  <small class="row col-md-offset-2 col-md-2">
     <a href="http://railstutorial.org/">Rails Tutorial</a>
     by Michael Hartl
   </small>
-  <nav>
-    <ul>
-      <li><%= link_to "About",   about_path %></li>
-      <li><%= link_to "Contact", contact_path %></li>
-      <li><a href="http://news.railstutorial.org/">News</a></li>
-    </ul>
-  </nav>
 </footer>
