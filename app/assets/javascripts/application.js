@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require bootstrap
 //= require bigSlide
+//= require bundle
 //= require_tree .
