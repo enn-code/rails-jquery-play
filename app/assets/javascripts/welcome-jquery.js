@@ -2,7 +2,7 @@ $(document).ready(function(){
   
   if (typeof jQuery != 'undefined') {
   // jQuery is loaded => print the version
-    alert(jQuery.fn.jquery);
+    alert("the jQuery version is "+jQuery.fn.jquery);
   }
   
   $('p').append('<p class = "list">This is an extra comment</p>' +

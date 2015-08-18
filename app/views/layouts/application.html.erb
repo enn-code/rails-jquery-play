@@ -2,20 +2,30 @@
 <html>
   <head>
     <title>
-      <%= yield(:title) %>
+      <%= yield(:title) + " | The Site" || "The Site" %>
     </title>
+
 
     <!-- include js/css files -->
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
 
+
+    <!-- favicon -->
+    <%= favicon_link_tag %>
+
+
   </head>
   <body>
-
-    <%= render 'layouts/header' %>
     
-    <%= yield %>
+    <div id = "wrap">
+    
+      <%= render 'layouts/header' %>
+      
+      <%= yield %>
+    
+    </div>
 
     <%= render 'layouts/footer' %>
 
