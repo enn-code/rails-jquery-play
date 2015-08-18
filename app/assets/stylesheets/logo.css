@@ -16,6 +16,10 @@
   text-decoration: none;
 }
 
+#logo-image {
+  padding-top: 9px;
+  margin-left: 15px;
+}
 
 .footer {
   position: absolute;
