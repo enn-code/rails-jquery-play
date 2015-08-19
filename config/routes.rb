@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  
+  # Points to devise authentication controller
+  devise_for :users
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -13,7 +17,7 @@ Rails.application.routes.draw do
   
   get 'login' => 'users#login'
   get 'profile' => 'users#profile'
-  get 'signup' => 'users#create'
+  get 'signup' => 'users#new'
   get 'users' => 'users#index'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)

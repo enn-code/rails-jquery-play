@@ -18,12 +18,20 @@
 
   </head>
   <body>
-    
+
+
     <!-- We need wrap to fill the body in order for the footer to stay at the bottom -->
     <div id = "wrap">
     
       <%= render 'layouts/header' %>
       
+      <!-- Flash notifications for devise authentication -->
+      <% if notice %>
+        <p class="notice"><%= notice %></p>
+      <% end %>
+      <% if alert %>
+        <p class="alert"><%= alert %></p> 
+      <% end %>
       <%= yield %>
     
     </div>
