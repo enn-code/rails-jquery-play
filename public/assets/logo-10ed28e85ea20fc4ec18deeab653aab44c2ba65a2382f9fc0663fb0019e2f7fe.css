@@ -1,0 +1,29 @@
+/* Stylesheet for the logo */
+
+
+#logo {
+  float: left;
+  margin-left: 50px;
+  font-size: 1.7em;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #aaa;
+  text-decoration: none;
+}
+
+#logo-image {
+  padding-top: 9px;
+  margin-left: 15px;
+}
+
+.logo-image-move {
+  padding-left: 100px;
+}
+
+
